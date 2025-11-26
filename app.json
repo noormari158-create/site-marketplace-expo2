@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Site Marketplace",
+    "slug": "site-marketplace-expo",
+    "version": "1.0.0",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "sdkVersion": "48.0.0",
+    "android": {
+      "package": "com.yourcompany.sitemarketplace"
+    }
+  }
+}
