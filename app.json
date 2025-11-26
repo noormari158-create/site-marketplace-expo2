@@ -1,15 +1,33 @@
 {
   "expo": {
-    "name": "Site Marketplace",
+    "name": "site-marketplace-expo",
     "slug": "site-marketplace-expo",
     "version": "1.0.0",
-    "platforms": [
-      "android",
-      "ios"
-    ],
-    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.yourcompany.sitemarketplace"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mycompany.marketplace"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "PUT-YOUR-EAS-PROJECT-ID-HERE"
+      }
     }
   }
 }
